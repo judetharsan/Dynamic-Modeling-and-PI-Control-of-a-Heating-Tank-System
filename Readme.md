@@ -1,5 +1,5 @@
 # Dynamic Modeling and PI Control of a Heating Tank System
-###Program:
+### Program:
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -86,4 +86,5 @@ plt.tight_layout()
 plt.show()
 
 ```
+### Output:
 ![image](https://github.com/judetharsan/Dynamic-Modeling-and-PI-Control-of-a-Heating-Tank-System/blob/main/Output.png)
