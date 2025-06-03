@@ -14,7 +14,7 @@ The tank receives a continuous flow of water at a certain inlet temperature. The
 
 ### Energy Balance Equation :
 
-![image]()
+![image](https://github.com/judetharsan/Dynamic-Modeling-and-PI-Control-of-a-Heating-Tank-System/blob/main/Energy%20Balance%20Equation.png)
 
 ## Tools & Libraries :
 
