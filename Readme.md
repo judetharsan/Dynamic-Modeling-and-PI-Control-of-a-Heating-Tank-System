@@ -1,5 +1,36 @@
 # Dynamic Modeling and PI Control of a Heating Tank System
-### Program :
+This project demonstrates the **dynamic modeling** and **PI control** of a heating tank system using Python. It simulates how a thermal process behaves when subjected to step changes in setpoint and inlet temperature, using a first-order model solved with `scipy.integrate.odeint`.
+
+## Project Objectives :
+
+- Develop a **first-principles model** of a heating tank based on energy balance
+- Simulate **temperature dynamics** over time using `odeint`
+- Implement a basic **PI controller** in Python
+- Observe the systems response to disturbances (e.g. sudden inlet temp drop)
+
+## System Description :
+
+The tank receives a continuous flow of water at a certain inlet temperature. The goal is to maintain the tank's temperature close to a desired setpoint by adjusting heater power.
+
+### Energy Balance Equation :
+
+![image]()
+
+## Tools & Libraries :
+
+- Python 3.x  
+- NumPy  
+- SciPy (`odeint` for ODE solving)  
+- Matplotlib
+
+## Features :
+
+- Simulates the **nonlinear temperature dynamics**
+- Includes **step changes** in inlet temperature
+- Implements a **PI control loop** in Python
+- Visualizes temperature vs time
+
+## Program :
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -86,5 +117,13 @@ plt.tight_layout()
 plt.show()
 
 ```
-### Output :
+## Output :
+
 ![image](https://github.com/judetharsan/Dynamic-Modeling-and-PI-Control-of-a-Heating-Tank-System/blob/main/Output.png)
+
+## Learning Outcomes :
+
+- How to model a thermal process dynamically  
+- How to simulate ODEs using `scipy.integrate.odeint`  
+- How PI controllers work in real-time control  
+- How process parameters affect stability and convergence
